@@ -211,6 +211,34 @@
             "VictoryEvent": {
                 "long_name": "Victory Event",
                 "extra": {}
+            },
+            "Stablilizer1": {
+                "long_name": "Stablilizer 1 Online",
+                "extra": {}
+            },
+            "Stabilizer2": {
+                "long_name": "Stabilizer 2 Online",
+                "extra": {}
+            },
+            "Stabilizer3": {
+                "long_name": "Stabilizer 3 Online",
+                "extra": {}
+            },
+            "Stabilizer4": {
+                "long_name": "Stabilizer 4 Online",
+                "extra": {}
+            },
+            "Stabilizer5": {
+                "long_name": "Stabilizer 5 Online",
+                "extra": {}
+            },
+            "Stabilizer1": {
+                "long_name": "Stabilizer 1 Online",
+                "extra": {}
+            },
+            "Ridley": {
+                "long_name": "Neo-Ridley",
+                "extra": {}
             }
         },
         "tricks": {
@@ -261,6 +289,10 @@
             },
             "LavaDamage": {
                 "long_name": "Lava Damage",
+                "extra": {}
+            },
+            "ElectricDamage": {
+                "long_name": "Electrified Water Damage",
                 "extra": {}
             }
         },
@@ -1065,16 +1097,17 @@
             1,
             2
         ],
+        "ShinesparkTrick": [
+            1,
+            2,
+            3,
+            4
+        ],
         "HeatRuns": [
             1,
             2
         ],
         "Movement": [
-            1,
-            2,
-            4
-        ],
-        "ShinesparkTrick": [
             1,
             2,
             4
