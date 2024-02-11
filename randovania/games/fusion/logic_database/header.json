@@ -214,6 +214,8 @@
             },
             "ReactorControl": {
                 "long_name": "Reactor Control",
+                "extra": {}
+            },
             "Stablilizer1": {
                 "long_name": "Stablilizer 1 Online",
                 "extra": {}
@@ -269,8 +271,8 @@
                 "description": "The player may be expected to traverse a room while taking damage from the environment (Heat/Lava/Cold/Electric)",
                 "extra": {}
             },
-            "KickClimb": {
-                "long_name": "Kick Climb",
+            "WallJump": {
+                "long_name": "Wall Jump",
                 "description": "The player may be expected to wall jump to traverse rooms vertically.",
                 "extra": {}
             },
