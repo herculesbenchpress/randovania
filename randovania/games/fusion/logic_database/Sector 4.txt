@@ -221,9 +221,11 @@ Extra - room_id: 6
   * Open Passage to Waterway/Other to Reservoir East
   * Extra - door_idx: 18
   > Room Center
-      Any of the following:
-          Speed Booster or After Water Level Lowered
-          Gravity Suit and Damage Runs (Beginner)
+      All of the following:
+          Speed Booster
+          Any of the following:
+              After Water Level Lowered
+              Gravity Suit and Damage Runs (Beginner)
 
 > Other to Serris Escape; Heals? False
   * Layers: default
@@ -404,10 +406,14 @@ Extra - room_id: 13
 > Pickup (Hidden Missile Tank); Heals? False
   * Layers: default
   * Pickup 60; Category? Minor
+  > Door to Escape Save Room
+      Trivial
 
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 61; Category? Minor
+  > Door to Escape Save Room
+      Trivial
 
 > Other to Serris Speedway; Heals? False
   * Layers: default
@@ -426,9 +432,9 @@ Extra - room_id: 13
   * L0 Hatch to Escape Save Room/Door to Serris Escape
   * Extra - door_idx: 117
   > Pickup (Hidden Missile Tank)
-      Can Use Bombs and Can Use Springball
+      Can Use Bombs
   > Pickup (Missile Tank)
-      Missiles and Can Use Bombs and Can Use Springball
+      Missiles ≥ 2 and Can Use Bombs
   > Other to Reservoir East
       Trivial
 
@@ -533,7 +539,9 @@ Extra - room_id: 17
   * Layers: default
   * Pickup 63; Category? Minor
   > Room Center
-      Gravity Suit or Space Jump or Wall Jump (Intermediate) or Can Freeze Enemies
+      All of the following:
+          Gravity Suit
+          Space Jump or Wall Jump (Intermediate) or Can Freeze Enemies
 
 > Door to Evir Shaft; Heals? False
   * Layers: default
@@ -585,11 +593,7 @@ Extra - room_id: 19
   * L0 Hatch to Aquarium Hub Access/Door to Aquarium Hub
   * Extra - door_idx: 42
   > Room Center
-      Any of the following:
-          Morph Ball
-          All of the following:
-              Gravity Suit and Can Freeze Enemies
-              Can Use Bombs or Can Use Springball
+      Morph Ball
 
 > Door to Aquarium Speedway; Heals? False
   * Layers: default
@@ -608,10 +612,8 @@ Extra - room_id: 19
       Any of the following:
           # To destroy Powamp
           Gravity Suit and Screw Attack
-          Any of the following:
-              # To get over Powamp
-              Can Freeze Enemies
-              Can Use Bombs and Can Use Springball
+          # To get over Powamp
+          Can Freeze Enemies or Can Use Bombs or Can Use Springball
 
 > Door to Aquarium Save Room East; Heals? False
   * Layers: default

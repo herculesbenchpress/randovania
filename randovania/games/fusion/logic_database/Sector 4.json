@@ -1483,7 +1483,7 @@
                     "override_default_lock_requirement": null,
                     "connections": {
                         "Room Center": {
-                            "type": "or",
+                            "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": [
@@ -2579,7 +2579,15 @@
                     "valid_starting_location": false,
                     "pickup_index": 60,
                     "location_category": "minor",
-                    "connections": {}
+                    "connections": {
+                        "Door to Escape Save Room": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Pickup (Missile Tank)": {
                     "node_type": "pickup",
@@ -2597,7 +2605,15 @@
                     "valid_starting_location": false,
                     "pickup_index": 61,
                     "location_category": "minor",
-                    "connections": {}
+                    "connections": {
+                        "Door to Escape Save Room": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Other to Serris Speedway": {
                     "node_type": "dock",
@@ -2701,10 +2717,6 @@
                                     {
                                         "type": "template",
                                         "data": "Can Use Bombs"
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Use Springball"
                                     }
                                 ]
                             }
@@ -2723,13 +2735,9 @@
                                         "data": {
                                             "type": "items",
                                             "name": "Missiles",
-                                            "amount": 1,
+                                            "amount": 2,
                                             "negate": false
                                         }
-                                    },
-                                    {
-                                        "type": "template",
-                                        "data": "Can Use Springball"
                                     }
                                 ]
                             }
@@ -3260,7 +3268,7 @@
                     "location_category": "minor",
                     "connections": {
                         "Room Center": {
-                            "type": "or",
+                            "type": "and",
                             "data": {
                                 "comment": null,
                                 "items": [
@@ -3558,43 +3566,6 @@
                                             "amount": 1,
                                             "negate": false
                                         }
-                                    },
-                                    {
-                                        "type": "and",
-                                        "data": {
-                                            "comment": null,
-                                            "items": [
-                                                {
-                                                    "type": "template",
-                                                    "data": "Can Freeze Enemies"
-                                                },
-                                                {
-                                                    "type": "or",
-                                                    "data": {
-                                                        "comment": null,
-                                                        "items": [
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Can Use Bombs"
-                                                            },
-                                                            {
-                                                                "type": "template",
-                                                                "data": "Can Use Springball"
-                                                            }
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "type": "resource",
-                                                    "data": {
-                                                        "type": "items",
-                                                        "name": "GravitySuit",
-                                                        "amount": 1,
-                                                        "negate": false
-                                                    }
-                                                }
-                                            ]
-                                        }
                                     }
                                 ]
                             }
@@ -3752,7 +3723,7 @@
                                                     "data": "Can Freeze Enemies"
                                                 },
                                                 {
-                                                    "type": "and",
+                                                    "type": "or",
                                                     "data": {
                                                         "comment": null,
                                                         "items": [
