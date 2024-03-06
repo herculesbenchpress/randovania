@@ -875,33 +875,61 @@
                                             "comment": null,
                                             "items": [
                                                 {
-                                                    "type": "and",
+                                                    "type": "or",
                                                     "data": {
-                                                        "comment": null,
+                                                        "comment": "No shinespark trick to create a morph tunnel across the top.",
                                                         "items": [
                                                             {
-                                                                "type": "template",
-                                                                "data": "Can Use Any Bombs"
+                                                                "type": "or",
+                                                                "data": {
+                                                                    "comment": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "template",
+                                                                            "data": "Can Use Bombs"
+                                                                        }
+                                                                    ]
+                                                                }
                                                             },
                                                             {
-                                                                "type": "template",
-                                                                "data": "Can Bounce in Ball"
+                                                                "type": "and",
+                                                                "data": {
+                                                                    "comment": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "template",
+                                                                            "data": "Can Bounce in Ball"
+                                                                        },
+                                                                        {
+                                                                            "type": "template",
+                                                                            "data": "Can Use Any Bombs"
+                                                                        }
+                                                                    ]
+                                                                }
                                                             }
                                                         ]
                                                     }
                                                 },
                                                 {
-                                                    "type": "resource",
+                                                    "type": "and",
                                                     "data": {
-                                                        "type": "tricks",
-                                                        "name": "ShinesparkTrick",
-                                                        "amount": 3,
-                                                        "negate": false
+                                                        "comment": "Trick to break the front speedblocks to leave a tunnel to get to the bomb block without needing a bounce item.",
+                                                        "items": [
+                                                            {
+                                                                "type": "resource",
+                                                                "data": {
+                                                                    "type": "tricks",
+                                                                    "name": "ShinesparkTrick",
+                                                                    "amount": 3,
+                                                                    "negate": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "template",
+                                                                "data": "Can Use Any Bombs"
+                                                            }
+                                                        ]
                                                     }
-                                                },
-                                                {
-                                                    "type": "template",
-                                                    "data": "Can Use Bombs"
                                                 }
                                             ]
                                         }

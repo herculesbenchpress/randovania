@@ -152,8 +152,12 @@ Extra - room_id: [3]
       All of the following:
           Morph Ball and Speed Booster
           Any of the following:
-              Shinespark Tricks (Advanced) or Can Use Bombs
-              Can Bounce in Ball and Can Use Any Bombs
+              Any of the following:
+                  # No shinespark trick to create a morph tunnel across the top.
+                  Can Use Bombs
+                  Can Bounce in Ball and Can Use Any Bombs
+              # Trick to break the front speedblocks to leave a tunnel to get to the bomb block without needing a bounce item.
+              Shinespark Tricks (Advanced) and Can Use Any Bombs
 
 ----------------
 Level 2 Security Room
