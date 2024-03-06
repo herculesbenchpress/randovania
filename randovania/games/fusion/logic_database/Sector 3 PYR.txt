@@ -264,18 +264,16 @@ Extra - room_id: [6, 24]
   * Extra - door_idx: (15, 48)
   > Pickup (Missile Tank)
       Any of the following:
-          Can Break Single Bomb Blocks
+          Can Use Bombs
           All of the following:
-              Can Use Power Bombs
-              Mid-Air Morph (Beginner) or Can Use Springball
+              Morph Ball and Can Break Single Bomb Blocks and Can Use Power Bombs
+              Mid-Air Morph (Beginner) or Can Bounce in Ball
   > Door to B.O.X. Access
       Any of the following:
           Can Use Bombs
           Can Use Power Bombs and Can Use Springball
   > Other to Namihe's Abode
-      Any of the following:
-          Can Use Any Bombs
-          Morph Ball and Screw Attack and Knowledge (Beginner)
+      Morph Ball and Can Break Single Bomb Blocks
 
 > Other to Namihe's Abode; Heals? False
   * Layers: default
