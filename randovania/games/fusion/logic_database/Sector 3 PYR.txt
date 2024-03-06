@@ -157,7 +157,7 @@ Extra - room_id: [3]
                   Can Use Bombs
                   Can Bounce in Ball and Can Use Any Bombs
               # Trick to break the front speedblocks to leave a tunnel to get to the bomb block without needing a bounce item.
-              Shinespark Tricks (Advanced) and Can Use Any Bombs
+              Shinespark Tricks (Advanced) and Can Use Power Bombs
 
 ----------------
 Level 2 Security Room
