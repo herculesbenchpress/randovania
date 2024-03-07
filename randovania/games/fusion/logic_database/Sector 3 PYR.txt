@@ -263,11 +263,9 @@ Extra - room_id: [6, 24]
   * L0 Hatch to Red Tower/Door to Bob Room
   * Extra - door_idx: (15, 48)
   > Pickup (Missile Tank)
-      Any of the following:
-          Can Use Bombs
-          All of the following:
-              Morph Ball and Can Break Single Bomb Blocks and Can Use Power Bombs
-              Mid-Air Morph (Beginner) or Can Bounce in Ball
+      All of the following:
+          Morph Ball and Can Break Single Bomb Blocks
+          Mid-Air Morph (Beginner) or Can Bounce in Ball
   > Door to B.O.X. Access
       Any of the following:
           Can Use Bombs
